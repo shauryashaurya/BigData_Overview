@@ -25,3 +25,8 @@ A basic setup would need one or more:
 * *Libraries* - These provide API access to various components in the ecosystem - APIs may be specific to a particular language or may provide support for multiple languages
 * *Messaging* - Parts of the distributed system would pass messages and enable data flow - from one process to another, from one node to another, from one cluster to another. A message queue or a message broker would take care of this task. Popular implementations are ZeroMQ (or 0mq) and RabbitMQ. 
 
+## Stacks
+
+![Hadoop Stack](images/hadoop_stack.png)
+
+![Spark Stack](images/spark.png)
