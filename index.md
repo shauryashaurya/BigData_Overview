@@ -51,3 +51,10 @@ The following were taken from https://hadoopecosystemtable.github.io/ and will b
 * RabbitMQ - *(not from hadoopecosystemtable)* RabbitMQ is open source message broker software (sometimes called message-oriented middleware) that implements the Advanced Message Queuing Protocol (AMQP). The RabbitMQ server is written in the Erlang programming language and is built on the Open Telecom Platform framework for clustering and failover. Client libraries to interface with the broker are available for all major programming languages.
 * Zookeeper - ZooKeeper is a high-performance coordination service for distributed applications. It exposes common services - such as naming, configuration management, synchronization, and group services - in a simple interface so you don't have to write them from scratch. You can use it off-the-shelf to implement consensus, group management, leader election, and presence protocols. And you can build on it for your own, specific needs. ZooKeeper was developed at Yahoo! Research. Several Hadoop projects are already using ZooKeeper to coordinate the cluster and provide highly-available distributed services. 
 * Oozie - Workflow scheduler system for MR jobs using DAGs (Direct Acyclical Graphs). Oozie Coordinator can trigger jobs by time (frequency) and data availability.
+
+
+## References
+* https://github.com/chrislusf/awesome-bigdata
+* https://github.com/onurakpolat/awesome-bigdata
+* https://github.com/youngwookim/awesome-hadoop
+
