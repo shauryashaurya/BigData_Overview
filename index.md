@@ -10,6 +10,11 @@ It helps to think of the the ecosystem as:
 A basic setup would need one or more:
 * *Workers* - nodes that actually execute the processing task
 * *Managers* - nodes that track the jobs
-* *Schedulers* - nodes that manage how the resources are shared among the jobs and jobs are timed
+* *Schedulers* - nodes that provide coordination services and may additionally manage how the resources are shared among the jobs
 * *Name Nodes* - nodes that maintain *where* a node exists and how to address it
 
+### *additionally*
+* *Storage* - to persist the data (S3, local, HDFS, RDBMS, NoSQL etc.)
+* *Data Import* - to acquire data into the ecosystem (from other RDBMS, data streams, etc.)
+* *Data Query* - ability to run SQL like analysis on the data once it's in the Big Data ecosystem
+* *
